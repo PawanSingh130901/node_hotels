@@ -1,0 +1,19 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "its a nodejs tutorial",
+  "license": "ISC",
+  "author": "pawan singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^9.0.2",
+    "prompt-sync": "^4.2.0"
+  }
+}

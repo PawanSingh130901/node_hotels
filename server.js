@@ -36,7 +36,7 @@ app.post('/menu', async (req, res) => {
 })
 
 
-
+//to get menu data
 app.get('/menu', async (req, res) =>{
   try{
     const data = await MenuItem.find();

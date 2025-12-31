@@ -2,6 +2,10 @@ const express =  require( 'express')
 
 const app = express();
 const db = require('./db');
+require('dotenv').config();
+const PORT = process.env.PORT || 3000;
+
+
 const MenuItem = require('./models/MenuItem');
 
 
@@ -57,6 +61,6 @@ app.use('/person',personRoutes);
 
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log('Server is running on http://localhost:3000')
 })
